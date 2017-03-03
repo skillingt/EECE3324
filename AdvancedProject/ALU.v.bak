@@ -1,0 +1,32 @@
+/*
+ * Taylor Skilling
+ * Will Johnson
+ * 12/14/2016
+ * EECE 3324
+ *
+ * ALU.v -- Main ALU
+ */
+ 
+module ALU(I0,I1,op,result,zero);
+	input[31:0] I0,I1;
+	input[3:0] op;
+	output reg [31:0] result;
+	output reg zero;
+	
+	initial result = 32'b0;
+	initial zero = 0;
+	
+	always@(*) begin
+		case(op)
+			4'b0000: result = I0 & I1; 		// And
+			4'b0001: result = I0 | I1;		// Or (unused)
+			4'b0010: result = I0 + I1;			// Add
+			4'b0110: result = I0 - I1;			// Subtract
+			4'b0111: result = ($signed(I1) < $signed(I0));	// SLTI
+			4'b1100: result = !(I0 | I1); 	// Nor (unused)
+		endcase
+		
+	zero = (result == 32'b0);
+	
+	end
+endmodule

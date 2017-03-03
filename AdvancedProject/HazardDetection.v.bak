@@ -1,0 +1,44 @@
+/*
+ * Taylor Skilling
+ * Will Johnson
+ * 12/14/2016
+ * EECE 3324
+ *
+ * Hazard Detection Unit 
+ */
+
+module HazardDetection(d_instr, x_rt, x_M, haz_pcEn, haz_ifidEn, haz_idexEn);
+input [31:0] d_instr;
+input [4:0] x_rt;
+input [2:0] x_M;
+input [1:0] d_pcSrc;
+output reg haz_pcEn, haz_ifidEn, haz_idexEn;
+// Assign instruction fields
+wire [4:0] next_op, next_rs, next_rt;
+assign next_op = d_instr[31:26];
+assign next_rs = d_instr[25:21];
+assign next_rt = d_instr[20:16];
+
+always@(d_instr or x_rt or x_M[1])
+begin
+  // if next operation is halt or
+  // if memread and either next rs or next rt conflict with X_rt...
+  if (next_op == 6'h3f ||
+     (x_M[1] && 
+    ((x_rt == next_rt) || (x_rt == next_rs))))
+    begin
+      // denotes a hazard
+      haz_idexEn <= 1;
+      haz_pcEn <= 0;
+      haz_ifidEn <= 0;      
+    end
+  else
+    begin
+      // denotes no hazard
+      haz_idexEn <= 0;
+      haz_pcEn <= 1;
+      haz_ifidEn <= 1;  
+    end
+end
+endmodule
+

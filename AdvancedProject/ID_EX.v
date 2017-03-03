@@ -1,0 +1,62 @@
+/*
+ * Taylor Skilling
+ * Will Johnson
+ * 12/14/2016
+ * EECE 3324
+ *
+ * ID_EX - ID/EX Register
+ */
+
+module ID_EX(clk, rst,
+              d_pcp4, d_seInstr16, d_rs, d_rt, d_rd, d_readData0, d_readData1, d_aluOp, d_regWrite,
+ 	      d_memToReg, d_branch, d_memRead, d_memWrite, d_regDst, d_aluSrc, d_zero, d_ctlIn,
+              x_pcp4, x_seInstr16, x_rs, x_rt, x_rd, x_readData0, x_readData1, 
+              x_WB, x_M, x_EX, x_ctlIn);
+
+  input [31:0] d_pcp4, d_readData0, d_readData1, d_seInstr16;
+  input [5:0] d_ctlIn;
+  input [4:0] d_rs, d_rt, d_rd;
+  input [1:0] d_aluOp;
+  input d_regWrite, d_memToReg, d_branch, d_memRead, d_memWrite, d_regDst, d_aluSrc, d_zero;
+  input clk, rst;
+  output reg [31:0] x_pcp4, x_readData0, x_readData1, x_seInstr16;
+  output reg [5:0] x_ctlIn;
+  output reg [4:0] x_rs, x_rt, x_rd;
+  output reg [3:0] x_EX;
+  output reg [2:0] x_M;
+  output reg [1:0] x_WB;
+ 
+ // using hazard bit replaces the need for a mux to set the WB, M, and EX to 0
+  always @ (posedge clk or negedge rst) begin
+    if (rst)
+      begin
+      	x_WB <= 0;
+      	x_M <= 0;
+      	x_EX <= 0;
+
+      	x_pcp4 <= 0;
+      	x_readData0 <= 0;
+      	x_readData1 <= 0;
+      	x_seInstr16 <= 0;
+      	x_rs <= 0;
+      	x_rt <= 0;
+      	x_rd <= 0;
+      	x_ctlIn <= 0;
+      end
+    else
+      begin
+        x_WB <= {d_memToReg, d_regWrite};
+        x_M <= {d_branch, d_memRead, d_memWrite};
+        x_EX <= {d_regDst, d_aluOp, d_aluSrc};
+
+        x_pcp4 <= d_pcp4;
+        x_readData0 <= d_readData0;
+        x_readData1 <= d_readData1;
+        x_seInstr16 <= d_seInstr16;
+        x_rs <= d_rs;
+        x_rt <= d_rt;
+        x_rd <= d_rd;
+        x_ctlIn <= d_ctlIn;
+      end   
+  end
+endmodule

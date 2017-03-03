@@ -1,0 +1,55 @@
+/*
+ * Taylor Skilling
+ * Will Johnson
+ * 12/14/2016
+ * EECE 3324
+ *
+ * Hazard Detection Unit 
+ */
+
+
+module ForwardingUnit(pc_rst, d_rs, d_rt, x_rs, x_rt, 
+		       m_writeReg, w_writeReg, m_WB, w_WB, 
+		       forward0_br, forward1_br, forward0_alu, forward1_alu);
+   input pc_rst;
+   input [4:0] d_rs, d_rt, x_rs, x_rt, m_writeReg, w_writeReg;
+   input [1:0] m_WB, w_WB;
+   output reg [1:0] forward0_alu, forward1_alu;
+   output reg forward0_br, forward1_br;
+   wire m_RW, w_RW;
+      
+  always@(posedge pc_rst)
+  begin
+     forward0_br = 1'b0;
+     forward1_br = 1'b0;
+     forward0_alu = 2'b00;
+     forward1_alu = 2'b00;
+  end
+  
+  assign m_RW = m_WB[0];
+  assign w_RW = w_WB[0];
+   
+  always @ (x_rs or x_rt or m_RW or w_RW)
+    begin
+        forward0_br = 0;
+        forward1_br = 0;
+        forward0_alu = 0; 
+        forward1_alu = 0;
+
+        if ( (d_rs != 5'b0) && (d_rs == m_writeReg) && m_RW )
+          forward0_br = 1'b1;
+        if ( (d_rt != 5'b0) && (d_rt == m_writeReg) && m_RW )
+          forward1_br = 1'b1;
+       
+        if (m_RW && (m_writeReg!=5'b0) && (m_writeReg == x_rs))
+          forward0_alu <= 2'b10; 
+        else if (w_RW && (w_writeReg!=5'b0) && (w_writeReg == x_rs))
+          forward0_alu <= 2'b01;
+        
+        if (m_RW && (m_writeReg!=5'b0) && (m_writeReg == x_rt))
+          forward1_alu <= 2'b10;
+        else if (w_RW && (w_writeReg!=5'b0) && (w_writeReg == x_rt))
+          forward1_alu <= 2'b01; 
+    end
+endmodule
+

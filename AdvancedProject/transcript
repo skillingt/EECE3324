@@ -1,0 +1,723 @@
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim work.CPUSim -novopt
+# vsim work.CPUSim -novopt 
+# Start time: 14:55:38 on Dec 15,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.CPUSim
+# Loading work.CPUSim
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.cpu
+# Loading work.cpu
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux3to1
+# Loading work.mux3to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg32
+# Loading work.reg32
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.IF_ID
+# Loading work.IF_ID
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1
+# Loading work.mux2to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg_file
+# Loading work.reg_file
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.control
+# Loading work.control
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ID_EX
+# Loading work.ID_EX
+# Loading work.mux4to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALUControl
+# Loading work.ALUControl
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALU
+# Loading work.ALU
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1_5b
+# Loading work.mux2to1_5b
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.EX_MEM
+# Loading work.EX_MEM
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.MEM_WB
+# Loading work.MEM_WB
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.HazardDetection
+# Loading work.HazardDetection
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ForwardingUnit
+# Loading work.ForwardingUnit
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.Memory
+# Loading work.Memory
+add wave -r /*
+run
+quit -sim
+# End time: 16:11:12 on Dec 15,2016, Elapsed time: 1:15:34
+# Errors: 0, Warnings: 1
+# Load canceled
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -novopt work.CPUSim
+# vsim -novopt work.CPUSim 
+# Start time: 16:11:32 on Dec 15,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.CPUSim
+# Loading work.CPUSim
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.cpu
+# Loading work.cpu
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux3to1
+# Loading work.mux3to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg32
+# Loading work.reg32
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.IF_ID
+# Loading work.IF_ID
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1
+# Loading work.mux2to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg_file
+# Loading work.reg_file
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.control
+# Loading work.control
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ID_EX
+# Loading work.ID_EX
+# Loading work.mux4to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALUControl
+# Loading work.ALUControl
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALU
+# Loading work.ALU
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1_5b
+# Loading work.mux2to1_5b
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.EX_MEM
+# Loading work.EX_MEM
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.MEM_WB
+# Loading work.MEM_WB
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.HazardDetection
+# Loading work.HazardDetection
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ForwardingUnit
+# Loading work.ForwardingUnit
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.Memory
+# Loading work.Memory
+add wave -r /*
+add wave -r /*
+run
+quit -sim
+# End time: 17:40:39 on Dec 15,2016, Elapsed time: 1:29:07
+# Errors: 0, Warnings: 1
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -novopt work.CPUSim
+# vsim -novopt work.CPUSim 
+# Start time: 17:41:46 on Dec 15,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.CPUSim
+# Loading work.CPUSim
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.cpu
+# Loading work.cpu
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux3to1
+# Loading work.mux3to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg32
+# Loading work.reg32
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.IF_ID
+# Loading work.IF_ID
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1
+# Loading work.mux2to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg_file
+# Loading work.reg_file
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.control
+# Loading work.control
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ID_EX
+# Loading work.ID_EX
+# Loading work.mux4to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALUControl
+# Loading work.ALUControl
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALU
+# Loading work.ALU
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1_5b
+# Loading work.mux2to1_5b
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.EX_MEM
+# Loading work.EX_MEM
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.MEM_WB
+# Loading work.MEM_WB
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.HazardDetection
+# Loading work.HazardDetection
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ForwardingUnit
+# Loading work.ForwardingUnit
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.Memory
+# Loading work.Memory
+add wave -r /*
+run
+# ** Note: $stop    : /Users/Student/tskillin/Documents/AdvancedProject/CPU.v(147)
+#    Time: 917500 ps  Iteration: 3  Instance: /CPUSim/proc1
+# Break in Module cpu at /Users/Student/tskillin/Documents/AdvancedProject/CPU.v line 147
+quit -sim
+# End time: 17:53:08 on Dec 15,2016, Elapsed time: 0:11:22
+# Errors: 0, Warnings: 1
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -novopt work.CPUSim
+# vsim -novopt work.CPUSim 
+# Start time: 17:53:19 on Dec 15,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.CPUSim
+# Loading work.CPUSim
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.cpu
+# Loading work.cpu
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux3to1
+# Loading work.mux3to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg32
+# Loading work.reg32
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.IF_ID
+# Loading work.IF_ID
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1
+# Loading work.mux2to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg_file
+# Loading work.reg_file
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.control
+# Loading work.control
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ID_EX
+# Loading work.ID_EX
+# Loading work.mux4to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALUControl
+# Loading work.ALUControl
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALU
+# Loading work.ALU
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1_5b
+# Loading work.mux2to1_5b
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.EX_MEM
+# Loading work.EX_MEM
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.MEM_WB
+# Loading work.MEM_WB
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.HazardDetection
+# Loading work.HazardDetection
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ForwardingUnit
+# Loading work.ForwardingUnit
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.Memory
+# Loading work.Memory
+add wave -r /*
+run
+# ** Note: $stop    : /Users/Student/tskillin/Documents/AdvancedProject/CPU.v(147)
+#    Time: 917500 ps  Iteration: 3  Instance: /CPUSim/proc1
+# Break in Module cpu at /Users/Student/tskillin/Documents/AdvancedProject/CPU.v line 147
+quit -sim
+# End time: 18:02:31 on Dec 15,2016, Elapsed time: 0:09:12
+# Errors: 0, Warnings: 1
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -novopt work.CPUSim
+# vsim -novopt work.CPUSim 
+# Start time: 18:02:48 on Dec 15,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.CPUSim
+# Loading work.CPUSim
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.cpu
+# Loading work.cpu
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux3to1
+# Loading work.mux3to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg32
+# Loading work.reg32
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.IF_ID
+# Loading work.IF_ID
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1
+# Loading work.mux2to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg_file
+# Loading work.reg_file
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.control
+# Loading work.control
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ID_EX
+# Loading work.ID_EX
+# Loading work.mux4to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALUControl
+# Loading work.ALUControl
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALU
+# Loading work.ALU
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1_5b
+# Loading work.mux2to1_5b
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.EX_MEM
+# Loading work.EX_MEM
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.MEM_WB
+# Loading work.MEM_WB
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.HazardDetection
+# Loading work.HazardDetection
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ForwardingUnit
+# Loading work.ForwardingUnit
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.Memory
+# Loading work.Memory
+add wave -r /*
+run
+# ** Note: $stop    : /Users/Student/tskillin/Documents/AdvancedProject/CPU.v(147)
+#    Time: 882500 ps  Iteration: 3  Instance: /CPUSim/proc1
+# Break in Module cpu at /Users/Student/tskillin/Documents/AdvancedProject/CPU.v line 147
+quit -sim
+# End time: 18:04:12 on Dec 15,2016, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 1
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -novopt work.CPUSim
+# vsim -novopt work.CPUSim 
+# Start time: 18:04:44 on Dec 15,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.CPUSim
+# Loading work.CPUSim
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.cpu
+# Loading work.cpu
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux3to1
+# Loading work.mux3to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg32
+# Loading work.reg32
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.IF_ID
+# Loading work.IF_ID
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1
+# Loading work.mux2to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg_file
+# Loading work.reg_file
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.control
+# Loading work.control
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ID_EX
+# Loading work.ID_EX
+# Loading work.mux4to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALUControl
+# Loading work.ALUControl
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALU
+# Loading work.ALU
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1_5b
+# Loading work.mux2to1_5b
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.EX_MEM
+# Loading work.EX_MEM
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.MEM_WB
+# Loading work.MEM_WB
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.HazardDetection
+# Loading work.HazardDetection
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ForwardingUnit
+# Loading work.ForwardingUnit
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.Memory
+# Loading work.Memory
+add wave -r /*
+run
+# ** Note: $stop    : /Users/Student/tskillin/Documents/AdvancedProject/CPU.v(147)
+#    Time: 917500 ps  Iteration: 3  Instance: /CPUSim/proc1
+# Break in Module cpu at /Users/Student/tskillin/Documents/AdvancedProject/CPU.v line 147
+quit -sim
+# End time: 18:40:34 on Dec 15,2016, Elapsed time: 0:35:50
+# Errors: 0, Warnings: 1
+vsim -novopt work.CPUSim
+# vsim -novopt work.CPUSim 
+# Start time: 18:40:54 on Dec 15,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.CPUSim
+# Loading work.cpu
+# Loading work.mux3to1
+# Loading work.reg32
+# Loading work.IF_ID
+# Loading work.mux2to1
+# Loading work.reg_file
+# Loading work.control
+# Loading work.ID_EX
+# Loading work.mux4to1
+# Loading work.ALUControl
+# Loading work.ALU
+# Loading work.mux2to1_5b
+# Loading work.EX_MEM
+# Loading work.MEM_WB
+# Loading work.HazardDetection
+# Loading work.ForwardingUnit
+# Loading work.Memory
+quit -sim
+# End time: 18:41:32 on Dec 15,2016, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 1
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -novopt work.CPUSim
+# vsim -novopt work.CPUSim 
+# Start time: 18:41:51 on Dec 15,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.CPUSim
+# Loading work.CPUSim
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.cpu
+# Loading work.cpu
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux3to1
+# Loading work.mux3to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg32
+# Loading work.reg32
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.IF_ID
+# Loading work.IF_ID
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1
+# Loading work.mux2to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg_file
+# Loading work.reg_file
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.control
+# Loading work.control
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ID_EX
+# Loading work.ID_EX
+# Loading work.mux4to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALUControl
+# Loading work.ALUControl
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALU
+# Loading work.ALU
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1_5b
+# Loading work.mux2to1_5b
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.EX_MEM
+# Loading work.EX_MEM
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.MEM_WB
+# Loading work.MEM_WB
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.HazardDetection
+# Loading work.HazardDetection
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ForwardingUnit
+# Loading work.ForwardingUnit
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.Memory
+# Loading work.Memory
+add wave -r /*
+run
+# ** Note: $stop    : /Users/Student/tskillin/Documents/AdvancedProject/CPU.v(147)
+#    Time: 922500 ps  Iteration: 3  Instance: /CPUSim/proc1
+# Break in Module cpu at /Users/Student/tskillin/Documents/AdvancedProject/CPU.v line 147
+quit -sim
+# End time: 18:43:41 on Dec 15,2016, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 1
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -novopt work.CPUSim
+# vsim -novopt work.CPUSim 
+# Start time: 18:52:16 on Dec 15,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.CPUSim
+# Loading work.CPUSim
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.cpu
+# Loading work.cpu
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux3to1
+# Loading work.mux3to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg32
+# Loading work.reg32
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.IF_ID
+# Loading work.IF_ID
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1
+# Loading work.mux2to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg_file
+# Loading work.reg_file
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.control
+# Loading work.control
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ID_EX
+# Loading work.ID_EX
+# Loading work.mux4to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALUControl
+# Loading work.ALUControl
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALU
+# Loading work.ALU
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1_5b
+# Loading work.mux2to1_5b
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.EX_MEM
+# Loading work.EX_MEM
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.MEM_WB
+# Loading work.MEM_WB
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.HazardDetection
+# Loading work.HazardDetection
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ForwardingUnit
+# Loading work.ForwardingUnit
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.Memory
+# Loading work.Memory
+add wave -r /*
+run
+# ** Note: $stop    : /Users/Student/tskillin/Documents/AdvancedProject/CPU.v(145)
+#    Time: 922500 ps  Iteration: 3  Instance: /CPUSim/proc1
+# Break in Module cpu at /Users/Student/tskillin/Documents/AdvancedProject/CPU.v line 145
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+quit -sim
+# End time: 19:02:43 on Dec 15,2016, Elapsed time: 0:10:27
+# Errors: 0, Warnings: 1
+# Load canceled
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -novopt work.CPUSim
+# vsim -novopt work.CPUSim 
+# Start time: 19:03:01 on Dec 15,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.CPUSim
+# Loading work.CPUSim
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.cpu
+# Loading work.cpu
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux3to1
+# Loading work.mux3to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg32
+# Loading work.reg32
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.IF_ID
+# Loading work.IF_ID
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1
+# Loading work.mux2to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg_file
+# Loading work.reg_file
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.control
+# Loading work.control
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ID_EX
+# Loading work.ID_EX
+# Loading work.mux4to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALUControl
+# Loading work.ALUControl
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALU
+# Loading work.ALU
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1_5b
+# Loading work.mux2to1_5b
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.EX_MEM
+# Loading work.EX_MEM
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.MEM_WB
+# Loading work.MEM_WB
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.HazardDetection
+# Loading work.HazardDetection
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ForwardingUnit
+# Loading work.ForwardingUnit
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.Memory
+# Loading work.Memory
+add wave -r /*
+run
+# ** Note: $stop    : /Users/Student/tskillin/Documents/AdvancedProject/CPU.v(145)
+#    Time: 922500 ps  Iteration: 3  Instance: /CPUSim/proc1
+# Break in Module cpu at /Users/Student/tskillin/Documents/AdvancedProject/CPU.v line 145
+quit -sim
+# End time: 20:13:36 on Dec 15,2016, Elapsed time: 1:10:35
+# Errors: 0, Warnings: 1
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of control.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPUSim.v was successful.
+# Compile of memory.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux2to1_5b.v was successful.
+# Compile of reg32.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of HazardDetection.v was successful.
+# Compile of mux3to1.v was successful.
+# Compile of IF_ID.v was successful.
+# Compile of ID_EX.v was successful.
+# Compile of EX_MEM.v was successful.
+# Compile of MEM_WB.v was successful.
+# Compile of ForwardingUnit.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -novopt work.CPUSim
+# vsim -novopt work.CPUSim 
+# Start time: 20:14:27 on Dec 15,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.CPUSim
+# Loading work.CPUSim
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.cpu
+# Loading work.cpu
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux3to1
+# Loading work.mux3to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg32
+# Loading work.reg32
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.IF_ID
+# Loading work.IF_ID
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1
+# Loading work.mux2to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.reg_file
+# Loading work.reg_file
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.control
+# Loading work.control
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ID_EX
+# Loading work.ID_EX
+# Loading work.mux4to1
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALUControl
+# Loading work.ALUControl
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ALU
+# Loading work.ALU
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.mux2to1_5b
+# Loading work.mux2to1_5b
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.EX_MEM
+# Loading work.EX_MEM
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.MEM_WB
+# Loading work.MEM_WB
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.HazardDetection
+# Loading work.HazardDetection
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.ForwardingUnit
+# Loading work.ForwardingUnit
+# Refreshing /Users/Student/tskillin/Documents/AdvancedProject/work.Memory
+# Loading work.Memory
+add wave -r /*
+run
+# ** Note: $stop    : /Users/Student/tskillin/Documents/AdvancedProject/CPU.v(145)
+#    Time: 922500 ps  Iteration: 3  Instance: /CPUSim/proc1
+# Break in Module cpu at /Users/Student/tskillin/Documents/AdvancedProject/CPU.v line 145

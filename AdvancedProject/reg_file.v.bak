@@ -1,0 +1,42 @@
+/*
+ * Taylor Skilling
+ * Will Johnson
+ * 12/14/2016
+ * EECE 3324
+ *
+ * reg_file.v -- Data Register
+ */
+
+module reg_file (clk, ctl_regWrite, instr_readReg0, instr_readReg1, instrToWrite,
+			reg_writeData, reg_readData0, reg_readData1);
+
+input clk, ctl_regWrite;
+input [4:0] instr_readReg0, instr_readReg1, instrToWrite;
+input [31:0] reg_writeData;
+output [31:0] reg_readData0, reg_readData1;
+
+reg [5:0] i;
+reg [31:0] regFile [31:0];
+
+// Clear
+initial
+begin
+    for (i = 0; i < 32; i=i+1)
+        regFile[i] = 0;
+end
+
+// Read on the positive edge
+always @(posedge clk)
+begin
+	assign	reg_readData0 = regFile[instr_readReg0];
+	assign	reg_readData1 = regFile[instr_readReg1];
+end
+
+// Writeback, updated to write on the negative edge
+always @(negedge clk)
+begin
+    if (ctl_regWrite)
+        regFile[instrToWrite] <= reg_writeData;
+end
+
+endmodule

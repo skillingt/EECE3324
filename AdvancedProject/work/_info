@@ -1,0 +1,380 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/COEnet/Linux/modelsim
+vALU
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]>O1_`9;FBC01]RH^i3Q51
+I2j@AnZZeE>LPT9I]I?37k3
+Z1 d/Users/Student/tskillin/Documents/AdvancedProject
+Z2 w1481850793
+8/Users/Student/tskillin/Documents/AdvancedProject/ALU.v
+F/Users/Student/tskillin/Documents/AdvancedProject/ALU.v
+Z3 L0 10
+Z4 OL;L;10.5c;63
+Z5 !s108 1481850860.000000
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/ALU.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+n@a@l@u
+vALUControl
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 7z>[JLDWQlle8:i@imX8]0
+I4[nX36056]]fLNdh;62TV0
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/ALUControl.v
+F/Users/Student/tskillin/Documents/AdvancedProject/ALUControl.v
+R3
+R4
+R5
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/ALUControl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/ALUControl.v|
+!i113 0
+R6
+R7
+n@a@l@u@control
+vcontrol
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^[RjChD0AL:RAY_DPF>]L1
+IO4IPh_]]_Qzj0TzkW7_>I3
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/control.v
+F/Users/Student/tskillin/Documents/AdvancedProject/control.v
+R3
+R4
+R5
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/control.v|
+!i113 0
+R6
+R7
+vcpu
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 G4LHJD>B2Tzh1Xel9GSA^0
+IGFClK^Sjg_0oB_nFF8CNZ2
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/CPU.v
+F/Users/Student/tskillin/Documents/AdvancedProject/CPU.v
+Z8 L0 11
+R4
+R5
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/CPU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/CPU.v|
+!i113 0
+R6
+R7
+vCPUSim
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 >zoZ3dnK:[5^gk[@9283e3
+IC4FT;4EcI^f:aKZ8Lj3LJ0
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/CPUSim.v
+F/Users/Student/tskillin/Documents/AdvancedProject/CPUSim.v
+R8
+R4
+R5
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/CPUSim.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/CPUSim.v|
+!i113 0
+R6
+R7
+n@c@p@u@sim
+vEX_MEM
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 JSJaaWjh;jW^IBF`nPf@W2
+IM]Ie7EA9mz:1XVhb>0]PE1
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/EX_MEM.v
+F/Users/Student/tskillin/Documents/AdvancedProject/EX_MEM.v
+L0 9
+R4
+Z9 !s108 1481850861.000000
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/EX_MEM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/EX_MEM.v|
+!i113 0
+R6
+R7
+n@e@x_@m@e@m
+vForwardingUnit
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;0SLMj3me`^kogdO7V68b0
+IzPRc8_VE=VR5gNNNf8Na01
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/ForwardingUnit.v
+F/Users/Student/tskillin/Documents/AdvancedProject/ForwardingUnit.v
+R8
+R4
+R9
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/ForwardingUnit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/ForwardingUnit.v|
+!i113 0
+R6
+R7
+n@forwarding@unit
+vHazardDetection
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 im<5G;Q0YgGRESg86SIhj0
+I@7Y:H@26Si5TKa]B@5kjI3
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/HazardDetection.v
+F/Users/Student/tskillin/Documents/AdvancedProject/HazardDetection.v
+R3
+R4
+R9
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/HazardDetection.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/HazardDetection.v|
+!i113 0
+R6
+R7
+n@hazard@detection
+vID_EX
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 8dXVSP_AYR>5bQb]LX:D63
+I4N63WeH]fnOTU]KBRH9lE2
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/ID_EX.v
+F/Users/Student/tskillin/Documents/AdvancedProject/ID_EX.v
+R3
+R4
+R9
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/ID_EX.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/ID_EX.v|
+!i113 0
+R6
+R7
+n@i@d_@e@x
+vIF_ID
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 3jUBn6:zI=3K9[3@jU>R`1
+IYV=J;;KH2Hb4[=B@1Z16?1
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/IF_ID.v
+F/Users/Student/tskillin/Documents/AdvancedProject/IF_ID.v
+R3
+R4
+R9
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/IF_ID.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/IF_ID.v|
+!i113 0
+R6
+R7
+n@i@f_@i@d
+vMEM_WB
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 VP8^KQSM556B]3_P8_;FO1
+I0JmoRMMmHP`d3[I_1^=Xk1
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/MEM_WB.v
+F/Users/Student/tskillin/Documents/AdvancedProject/MEM_WB.v
+R3
+R4
+R9
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/MEM_WB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/MEM_WB.v|
+!i113 0
+R6
+R7
+n@m@e@m_@w@b
+vMemory
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 mY3Jz@hRbZ5j@YIE=Dg[X0
+IhGYfomb2Ihg59WBIBKV121
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/memory.v
+F/Users/Student/tskillin/Documents/AdvancedProject/memory.v
+L0 8
+R4
+R5
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/memory.v|
+!i113 0
+R6
+R7
+n@memory
+vmux2to1
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 F0baU;Ch7CC:6L0N@@M<:2
+ICW:ZRPzTzdZc^HcEH`3jh2
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/mux2to1.v
+F/Users/Student/tskillin/Documents/AdvancedProject/mux2to1.v
+R3
+R4
+R5
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/mux2to1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/mux2to1.v|
+!i113 0
+R6
+R7
+vmux2to1_5b
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 f0zHSd?BQDDLBb1>T[fE40
+INLcSWzOfgV2Y]mJfjJfom2
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/mux2to1_5b.v
+F/Users/Student/tskillin/Documents/AdvancedProject/mux2to1_5b.v
+R3
+R4
+R9
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/mux2to1_5b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/mux2to1_5b.v|
+!i113 0
+R6
+R7
+vmux3to1
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 8U@?OGl6O>i4e=E_aI3?G1
+IBk7jI25Ye]b8iYWg:EfDY3
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/mux3to1.v
+F/Users/Student/tskillin/Documents/AdvancedProject/mux3to1.v
+R3
+R4
+R9
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/mux3to1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/mux3to1.v|
+!i113 0
+R6
+R7
+vmux4to1
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 YEQIWgaVI=;=g;Ub30MkM3
+IY4o2^Xzj::@HoB8G>[L8b1
+R1
+w1481675985
+8/Users/Student/tskillin/Documents/AdvancedProject/mux4to1.v
+F/Users/Student/tskillin/Documents/AdvancedProject/mux4to1.v
+L0 1
+R4
+!s108 1481688567.000000
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/mux4to1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/mux4to1.v|
+!i113 0
+R6
+R7
+vreg32
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^;>[M5oUAFHeZf;VU0X0B1
+I]FW;7BZCN1aj9XcoJnSV:0
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/reg32.v
+F/Users/Student/tskillin/Documents/AdvancedProject/reg32.v
+R3
+R4
+R9
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/reg32.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/reg32.v|
+!i113 0
+R6
+R7
+vreg_file
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 [=4hLX:@^hQKNE2>>iRg_2
+I?0B0VLT2^]hC8NA4fFYGM0
+R1
+R2
+8/Users/Student/tskillin/Documents/AdvancedProject/reg_file.v
+F/Users/Student/tskillin/Documents/AdvancedProject/reg_file.v
+R3
+R4
+R9
+!s107 /Users/Student/tskillin/Documents/AdvancedProject/reg_file.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/Users/Student/tskillin/Documents/AdvancedProject/reg_file.v|
+!i113 0
+R6
+R7
